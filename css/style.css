@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+/* Styling the first container */
+.first_container{
+    background: black;
+    text-align: left;
+    position: relative;
+}
+
+.first_container img{
+    width: 100%;
+}
+
+.fc_text{
+    color: red;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    /* Styling font */
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    
+}
+.redText 
+{ 
+    color: red; 
+} 
+
+.first_container hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+/* Styling the second container */
+.second_container{
+    background: black;
+    text-align: center;
+    position: relative;
+}
+
+.second_container img{
+    width: 100%;
+}
+.second_container h1{
+    color: rgb(53, 49, 49);
+    line-height: 0;
+    padding: 40px;
+    text-align: center;
+    /* top: 250%; */
+    /* right: 250%; */
+    /* Styling font */
+    font-family: 'Lobster', cursive;
+}
+
+#br_1{
+    font-size: 55px;
+}
+
+#br_2{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+#br_3{
+    margin-top: 0px;
+}
+
+#br_4{
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+/* Styling the third container */
+
+
+.third_container{
+    background-color: #adb93b;
+       /* Youre adding a padding to the bottom of the container here */
+    /* padding-bottom: 200px; */
+    padding-top: 10px;
+}
+
+.third_container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Set the width to 100% to make sure that the container doesn't expand more than needed */
+    width: 100%;
+}
+
+.third_container h1{
+    color: rgb(7, 7, 7);
+    display: block;
+    /* margin-top: -270px; */
+    text-align: left;
+    top: 50%;
+    left: 30%;
+    margin-left: -600px;
+
+
+   /* Styling font */
+    font-family: 'Piazzolla', serif;
+} 
+
+/* Adding and selecting a common class for the second and third container */
+/* Center Image */
+.center_image {
+  position: absolute;
+  margin-top: -38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
